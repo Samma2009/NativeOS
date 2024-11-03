@@ -27,5 +27,7 @@ To install the build helper download it from the releases tab or build it by run
 ```
 inside of the build helper folder
 
+also you will need to download the BaseCode.zip and drag it in the build helper folder if you want to build it yourself
+
 ------------
 NativeOS is based on MOOS, we are still moving from using MOOS drivers to our custom ones
