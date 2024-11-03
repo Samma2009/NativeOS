@@ -1,5 +1,8 @@
 
 # NativeOS
+<a href="https://discord.com/invite/KUm5JuC9XV">
+  <img src="https://img.shields.io/badge/Discord-navy?style=for-the-badge&logo=discord&color=2bb572" alt="Discord">
+</a>
 
 ![Logo](https://github.com/user-attachments/assets/1e856f22-d109-46f6-9575-ff730544bf85)
 
