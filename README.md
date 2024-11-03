@@ -26,3 +26,6 @@ To install the build helper download it from the releases tab or build it by run
   dotnet build
 ```
 inside of the build helper folder
+
+------------
+NativeOS is based on MOOS, we are still moving from using MOOS drivers to our custom ones
