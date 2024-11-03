@@ -1,0 +1,4 @@
+CORLIB=Corlib\Corlib.shproj
+KERNEL=Kernel\Kernel.shproj
+OS=OS\ostemplate.csproj
+VM=VMWare

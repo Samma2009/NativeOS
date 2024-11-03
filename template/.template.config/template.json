@@ -1,0 +1,14 @@
+{
+    "$schema": "https://getcomposer.org/template",
+    "author": "Samma",
+    "classifications":["OS"],
+    "name":"NativeOS c# template",
+    "shortName":"nativeos",
+    "sourceName":"ostemplate",
+    "tags":{
+        "language":"C#",
+        "type":"project"
+    },
+    "preferNameDirectory":true,
+    "identity":"NativeOS.Template.CSharp"
+}

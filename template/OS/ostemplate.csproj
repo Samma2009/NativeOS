@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Corlib\**" />
+    <Compile Remove="Kernel\**" />
+    <EmbeddedResource Remove="Corlib\**" />
+    <EmbeddedResource Remove="Kernel\**" />
+    <None Remove="Corlib\**" />
+    <None Remove="Kernel\**" />
+  </ItemGroup>
+
+  <Import Project="Kernel\Kernel.projitems" Label="Shared" />
+
+  <Import Project="..\Corlib\Corlib.projitems" Label="Shared" />
+
+  <Import Project="..\Kernel\Kernel.projitems" Label="Shared" />
+
+</Project>

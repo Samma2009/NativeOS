@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Kernel", "Kernel\Kernel.shproj", "{066034BC-37FE-4605-8BDB-C525EC29DBE4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Corlib", "Corlib\Corlib.shproj", "{51E1B402-1D4F-4C9B-831C-45C8603353D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ostemplate", "OS\ostemplate.csproj", "{6550C671-D924-487A-B2D4-B0A3E54B37EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6550C671-D924-487A-B2D4-B0A3E54B37EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6550C671-D924-487A-B2D4-B0A3E54B37EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6550C671-D924-487A-B2D4-B0A3E54B37EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6550C671-D924-487A-B2D4-B0A3E54B37EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DB35CDC-74DC-4D61-93A1-4C468147752E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Kernel\Kernel.projitems*{066034bc-37fe-4605-8bdb-c525ec29dbe4}*SharedItemsImports = 13
+		Corlib\Corlib.projitems*{51e1b402-1d4f-4c9b-831c-45c8603353d5}*SharedItemsImports = 13
+		Corlib\Corlib.projitems*{6550c671-d924-487a-b2d4-b0a3e54b37ee}*SharedItemsImports = 5
+		Kernel\Kernel.projitems*{6550c671-d924-487a-b2d4-b0a3e54b37ee}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
