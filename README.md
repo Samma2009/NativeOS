@@ -3,6 +3,7 @@
 <a href="https://discord.gg/yasdSm3y">
   <img src="https://img.shields.io/badge/Discord-navy?style=for-the-badge&logo=discord&color=2bb572" alt="Discord 1">
 </a>
+
 ![Logo](https://github.com/user-attachments/assets/1e856f22-d109-46f6-9575-ff730544bf85)
 
 NativeOS is an os creation that allows os creation with C#
