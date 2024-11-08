@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "NativeOS": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\NativeOS\\NativeOS.exe",
+      "commandLineArgs": "..\\..\\..\\..\\NativeOSBuildFile"
+    }
+  }
+}
